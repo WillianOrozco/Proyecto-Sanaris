@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --background: 210 20% 98%;
+  --foreground: 215 30% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 215 30% 15%;
+  --primary: hsl(215, 65%, 25%);
+  --primary-foreground: #ffffff;
+  --secondary: hsl(175, 45%, 45%);
+  --secondary-foreground: #ffffff;
+  --muted: hsl(210, 20%, 94%);
+  --muted-foreground: hsl(215, 15%, 50%);
+  --accent: hsl(175, 45%, 45%);
+  --accent-foreground: #ffffff;
+  --border: hsl(214, 20%, 88%);
+  --input: hsl(214, 20%, 88%);
+  --ring: hsl(215, 65%, 25%);
+  --radius: 0.75rem;
+  --background-color: hsl(210, 20%, 98%);
+  --foreground-color: hsl(215, 30%, 15%);
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', 'Inter', sans-serif;
+}

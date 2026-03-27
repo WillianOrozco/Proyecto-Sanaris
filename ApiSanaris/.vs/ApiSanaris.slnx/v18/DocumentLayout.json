@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|c:\\users\\elica\\source\\repos\\apisanaris\\dtos\\pacientepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|solutionrelative:dtos\\pacientepostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|c:\\users\\elica\\source\\repos\\apisanaris\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|solutionrelative:controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|c:\\users\\elica\\source\\repos\\apisanaris\\dtos\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|solutionrelative:dtos\\pacientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|c:\\users\\elica\\source\\repos\\apisanaris\\dtos\\enfermeropostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|solutionrelative:dtos\\enfermeropostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|c:\\users\\elica\\source\\repos\\apisanaris\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|c:\\users\\elica\\source\\repos\\apisanaris\\controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|solutionrelative:controllers\\hospitalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|c:\\users\\elica\\source\\repos\\apisanaris\\models\\sanariscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E35458E-7D71-C286-681B-204128C1ECD2}|ApiSanaris.csproj|solutionrelative:models\\sanariscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnfermeroPostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\DTOs\\EnfermeroPostDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\EnfermeroPostDTO.cs",
+              "ToolTip": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\DTOs\\EnfermeroPostDTO.cs",
+              "RelativeToolTip": "DTOs\\EnfermeroPostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T21:47:29.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PacientePostDTO.cs",
+              "DocumentMoniker": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\DTOs\\PacientePostDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\PacientePostDTO.cs",
+              "ToolTip": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\DTOs\\PacientePostDTO.cs",
+              "RelativeToolTip": "DTOs\\PacientePostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T21:46:35.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PacienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\DTOs\\PacienteDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\PacienteDTO.cs",
+              "ToolTip": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\DTOs\\PacienteDTO.cs",
+              "RelativeToolTip": "DTOs\\PacienteDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T21:14:41.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PacienteController.cs",
+              "DocumentMoniker": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Controllers\\PacienteController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PacienteController.cs",
+              "ToolTip": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Controllers\\PacienteController.cs",
+              "RelativeToolTip": "Controllers\\PacienteController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAABwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T21:15:49.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAACYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:54:20.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HospitalController.cs",
+              "DocumentMoniker": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Controllers\\HospitalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HospitalController.cs",
+              "ToolTip": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Controllers\\HospitalController.cs",
+              "RelativeToolTip": "Controllers\\HospitalController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T14:49:59.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SanarisContext.cs",
+              "DocumentMoniker": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Models\\SanarisContext.cs",
+              "RelativeDocumentMoniker": "Models\\SanarisContext.cs",
+              "ToolTip": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\Models\\SanarisContext.cs",
+              "RelativeToolTip": "Models\\SanarisContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T13:51:32.561Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
