@@ -9,6 +9,6 @@
         public string Especialidad { get; set; }
         public int Experiencia { get; set; }
 
-        public int Hospital { get; set; } 
+        public int HospitalId { get; set; } 
     }
 }

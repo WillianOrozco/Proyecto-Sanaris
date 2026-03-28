@@ -125,11 +125,11 @@ export default function LoginForm() {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <button type="button" onClick={() => window.location.href = '/auth/login?forgot=true'} className="text-sm text-muted-foreground hover:text-foreground font-medium">
+                  <button type="button" onClick={() => window.location.href = '/auth/login?forgot=true'} className="text-sm text-muted-foreground hover:text-foreground font-medium cursor-pointer">
                     ¿Olvidaste tu contraseña?
                   </button>
                 </div>
-                <Button type="submit" className="w-full h-12 font-semibold text-base gap-2">
+                <Button type="submit" className="w-full h-12 font-semibold text-base gap-2 cursor-pointer">
                   Iniciar sesión <ArrowRight className="w-4 h-4" />
                 </Button>
               </form>
@@ -141,7 +141,7 @@ export default function LoginForm() {
                   <span className="bg-background px-3 text-muted-foreground">o continuar con</span>
                 </div>
               </div>
-              <Button type="button" variant="outline" onClick={handleGoogle} className="w-full h-12 gap-2">
+              <Button type="button" variant="outline" onClick={handleGoogle} className="w-full h-12 gap-2 cursor-pointer">
                 <svg className="w-5 h-5" viewBox="0 0 24 24">
                   <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4" />
                   <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853" />
@@ -150,7 +150,7 @@ export default function LoginForm() {
                 </svg>
                 Continuar con Google
               </Button>
-              <Button type="button" variant="outline" onClick={() => window.location.href = '/auth/login?connection=facebook'} className="w-full h-12 gap-2">
+              <Button type="button" variant="outline" onClick={() => window.location.href = '/auth/login?connection=facebook'} className="w-full h-12 gap-2 cursor-pointer">
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="#1877F2">
                   <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                 </svg>
@@ -158,8 +158,8 @@ export default function LoginForm() {
               </Button>
               <p className="text-center text-sm text-muted-foreground">
                 ¿No tienes cuenta?{" "}
-                <button type="button" onClick={() => { window.location.href = '/auth/login?screen_hint=signup'; }}
-                  className="text-foreground hover:text-foreground/80 font-semibold underline">
+                <button type="button" onClick={() => { setMode("register"); setStep(1); }}
+                  className="text-foreground hover:text-foreground/80 font-semibold underline cursor-pointer">
                   Regístrate
                 </button>
               </p>
@@ -170,7 +170,7 @@ export default function LoginForm() {
           {mode === "register" && step === 1 && (
             <>
               <div>
-                <h2 className="text-3xl font-bold text-foreground">Crear cuenta</h2>
+                <h2 className="text-3xl font-bold text-foreground ">Crear cuenta</h2>
                 <p className="text-muted-foreground mt-2">Paso 1 de 2 — Datos de acceso</p>
               </div>
               <form onSubmit={handleStep1} className="space-y-5">
@@ -205,14 +205,14 @@ export default function LoginForm() {
                     </button>
                   </div>
                 </div>
-                <Button type="submit" className="w-full h-12 font-semibold text-base gap-2">
+                <Button type="submit" className="w-full h-12 font-semibold text-base gap-2 cursor-pointer">
                   Continuar <ArrowRight className="w-4 h-4" />
                 </Button>
               </form>
               <p className="text-center text-sm text-muted-foreground">
                 ¿Ya tienes cuenta?{" "}
                 <button type="button" onClick={() => setMode("login")}
-                  className="text-foreground hover:text-foreground/80 font-semibold underline">
+                  className="text-foreground hover:text-foreground/80 font-semibold underline cursor-pointer">
                   Inicia sesión
                 </button>
               </p>

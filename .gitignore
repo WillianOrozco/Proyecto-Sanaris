@@ -1,0 +1,34 @@
+# ========================
+# NEXT.JS
+# ========================
+Sanaris/node_modules
+Sanaris/.next
+Sanaris/out
+Sanaris/build
+Sanaris/.env*
+
+# ========================
+# .NET / VISUAL STUDIO
+# ========================
+ApiSanaris/.vs/
+ApiSanaris/bin/
+ApiSanaris/obj/
+
+# ========================
+# GENERAL
+# ========================
+node_modules/
+.vs/
+bin/
+obj/
+
+# logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

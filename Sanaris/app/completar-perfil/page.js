@@ -89,7 +89,7 @@ export default function CompletarPerfil() {
               {ROLES.map(r => <option key={r} value={r} className="bg-gray-900">{r}</option>)}
             </select>
           </div>
-          <Button type="submit" disabled={loading} className="w-full h-12 font-semibold text-base gap-2">
+          <Button type="submit" disabled={loading} className="w-full h-12 font-semibold text-white gap-2 cursor-pointer">
             {loading ? "Guardando..." : (<>Continuar <ArrowRight className="w-4 h-4" /></>)}
           </Button>
         </form>

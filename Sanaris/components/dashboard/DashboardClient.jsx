@@ -103,6 +103,7 @@ function Sidebar({ rol, initials, nombre }) {
   const navAdmin = [
     { icon:LayoutGrid,   label:"Dashboard", active:true, href:"/dashboard" },
     { icon:BedDouble,    label:"Espacios",  href:"/habitaciones" },
+    { icon:Activity,    label:"Usuarios",  href:"/users-interface" },
   ];
   const navMedico = [
     { icon:LayoutGrid,   label:"Dashboard",         active:true, href:"/dashboard" },

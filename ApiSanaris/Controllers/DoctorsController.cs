@@ -30,7 +30,8 @@ namespace ApiSanaris.Controllers
                     Edad = d.Edad,
                     Especialidad = d.Especialidad,
                     Experiencia = d.Experiencia,
-                    HospitalNombre = d.HospitalNavigation.Nombres
+                    HospitalNombre = d.HospitalNavigation.Nombres,
+                    HospitalId = d.HospitalNavigation.Id
                 })
                 .ToListAsync();
 
@@ -52,7 +53,8 @@ namespace ApiSanaris.Controllers
                     Edad = d.Edad,
                     Especialidad = d.Especialidad,
                     Experiencia = d.Experiencia,
-                    HospitalNombre = d.HospitalNavigation.Nombres
+                    HospitalNombre = d.HospitalNavigation.Nombres,
+                    HospitalId = d.HospitalNavigation.Id
                 })
                 .FirstOrDefaultAsync();
 
@@ -71,7 +73,7 @@ namespace ApiSanaris.Controllers
                 Nombres = dto.Nombres,
                 Apellidos = dto.Apellidos,
                 Edad = dto.Edad,
-                Hospital = dto.Hospital,
+                Hospital = dto.HospitalId,
                 Especialidad = dto.Especialidad,
                 Experiencia = dto.Experiencia
             };
@@ -94,7 +96,7 @@ namespace ApiSanaris.Controllers
             doctor.Nombres = dto.Nombres;
             doctor.Apellidos = dto.Apellidos;
             doctor.Edad = dto.Edad;
-            doctor.Hospital = dto.Hospital;
+            doctor.Hospital = dto.HospitalId;
             doctor.Especialidad = dto.Especialidad;
             doctor.Experiencia = dto.Experiencia;
 
