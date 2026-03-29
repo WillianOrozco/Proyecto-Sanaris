@@ -44,7 +44,7 @@ export default function GestionGeneral() {
     if (filtro === "extra") {
       return (
         (item.especialidad || "").toLowerCase().includes(text) ||
-        (item.doctor || "").toLowerCase().includes(text) ||
+        (item.descripcion || "").toLowerCase().includes(text) ||
         (item.experiencia || "").toString().toLowerCase().includes(text)
       );
     }
