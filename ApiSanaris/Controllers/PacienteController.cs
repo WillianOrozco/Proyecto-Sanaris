@@ -28,9 +28,13 @@ namespace ApiSanaris.Controllers
                     Apellidos = p.Apellidos,
                     FNacimiento = p.FNacimiento,
                     Edad = p.Edad,
+                    Descripcion = p.Descripcion,
                     Doctor = p.DoctorNavigation != null
                         ? p.DoctorNavigation.Nombres
                         : "Sin asignar",
+                    DoctorId = p.DoctorNavigation != null
+                        ? p.DoctorNavigation.Id
+                        : null,
                     Habitacion = p.Habitacion
                 })
                 .ToListAsync();
@@ -48,7 +52,7 @@ namespace ApiSanaris.Controllers
                 FNacimiento = dto.FNacimiento,
                 Edad = dto.Edad,
                 Descripcion = dto.Descripcion,
-                Doctor = dto.Doctor,
+                Doctor = dto.DoctorId,
                 Habitacion = dto.Habitacion
             };
 
@@ -70,7 +74,7 @@ namespace ApiSanaris.Controllers
             entity.FNacimiento = dto.FNacimiento;
             entity.Edad = dto.Edad;
             entity.Descripcion = dto.Descripcion;
-            entity.Doctor = dto.Doctor;
+            entity.Doctor = dto.DoctorId;
             entity.Habitacion = dto.Habitacion;
 
             await _context.SaveChangesAsync();

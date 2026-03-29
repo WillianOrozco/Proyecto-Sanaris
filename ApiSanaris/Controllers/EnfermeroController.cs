@@ -28,7 +28,7 @@ namespace ApiSanaris.Controllers
                     Apellidos = e.Apellidos,
                     Edad = e.Edad,
                     Experiencia = e.Experiencia,
-                    HospitalNombre = e.HospitalNavigation.Nombres
+                    HospitalId = e.HospitalNavigation.Id
                 })
                 .ToListAsync();
 
@@ -44,7 +44,7 @@ namespace ApiSanaris.Controllers
                 Apellidos = dto.Apellidos,
                 Edad = dto.Edad,
                 Experiencia = dto.Experiencia,
-                Hospital = dto.Hospital
+                Hospital = dto.HospitalId
             };
 
             _context.Enfermeros.Add(entity);
@@ -64,7 +64,7 @@ namespace ApiSanaris.Controllers
             entity.Apellidos = dto.Apellidos;
             entity.Edad = dto.Edad;
             entity.Experiencia = dto.Experiencia;
-            entity.Hospital = dto.Hospital;
+            entity.Hospital = dto.HospitalId;
 
             await _context.SaveChangesAsync();
 

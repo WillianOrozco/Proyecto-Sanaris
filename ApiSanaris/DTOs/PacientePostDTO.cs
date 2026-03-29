@@ -8,7 +8,7 @@
         public DateOnly FNacimiento { get; set; }
         public int Edad { get; set; }
         public string? Descripcion { get; set; }
-        public int? Doctor { get; set; }
+        public int? DoctorId { get; set; }
         public int? Habitacion { get; set; }
     }
 }
