@@ -7,6 +7,7 @@ export const useFetchData = (tipo, endpoints) => {
     const res = await fetch(endpoints[tipo]);
     const json = await res.json();
     setData(json);
+    console.log(json);
   };
 
   useEffect(() => {

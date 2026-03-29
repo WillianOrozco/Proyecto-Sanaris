@@ -8,7 +8,7 @@ export default function TableRow({ item, tipo, handleEdit, handleDelete }) {
       <td className="p-3">
         {tipo === "doctors" && item.especialidad}
         {tipo === "enfermeros" && item.experiencia}
-        {tipo === "pacientes" && item.doctor}
+        {tipo === "pacientes" && item.descripcion}
       </td>
 
       <td className="p-3 flex gap-2 justify-center">

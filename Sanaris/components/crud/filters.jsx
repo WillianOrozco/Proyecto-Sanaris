@@ -4,13 +4,17 @@ export default function Filters({
   filtro,
   setFiltro,
   search,
+  setForm,
   setSearch,
 }) {
   return (
     <div className="flex gap-3 mb-6">
       <select
         value={tipo}
-        onChange={(e) => setTipo(e.target.value)}
+        onChange={(e) => {
+          setTipo(e.target.value);
+          setForm({}); // 👈 cerrar form
+        }}
         className="bg-slate-800 p-2 rounded"
       >
         <option value="doctors">Doctores</option>
@@ -28,7 +32,7 @@ export default function Filters({
         <option value="extra">
           {tipo === "doctors" && "Especialidad"}
           {tipo === "enfermeros" && "Experiencia"}
-          {tipo === "pacientes" && "Doctor"}
+          {tipo === "pacientes" && "Descripcion"}
         </option>
       </select>
 

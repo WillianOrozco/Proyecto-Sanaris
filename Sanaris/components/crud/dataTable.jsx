@@ -12,7 +12,7 @@ export default function DataTable({ filtered, tipo, handleEdit, handleDelete }) 
             <th className="p-3">
               {tipo === "doctors" && "Especialidad"}
               {tipo === "enfermeros" && "Experiencia"}
-              {tipo === "pacientes" && "Doctor"}
+              {tipo === "pacientes" && "Descripcion"}
             </th>
             <th className="p-3">Acciones</th>
           </tr>
