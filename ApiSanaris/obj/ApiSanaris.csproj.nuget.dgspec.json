@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\elica\\source\\repos\\ApiSanaris\\ApiSanaris.csproj": {}
+    "C:\\Sanaris_\\Proyecto-Sanaris\\ApiSanaris\\ApiSanaris.csproj": {}
   },
   "projects": {
-    "C:\\Users\\elica\\source\\repos\\ApiSanaris\\ApiSanaris.csproj": {
+    "C:\\Sanaris_\\Proyecto-Sanaris\\ApiSanaris\\ApiSanaris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\ApiSanaris.csproj",
+        "projectUniqueName": "C:\\Sanaris_\\Proyecto-Sanaris\\ApiSanaris\\ApiSanaris.csproj",
         "projectName": "ApiSanaris",
-        "projectPath": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\ApiSanaris.csproj",
-        "packagesPath": "C:\\Users\\elica\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\elica\\source\\repos\\ApiSanaris\\obj\\",
+        "projectPath": "C:\\Sanaris_\\Proyecto-Sanaris\\ApiSanaris\\ApiSanaris.csproj",
+        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
+        "outputPath": "C:\\Sanaris_\\Proyecto-Sanaris\\ApiSanaris\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\elica\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
