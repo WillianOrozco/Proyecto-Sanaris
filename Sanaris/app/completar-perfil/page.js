@@ -1,7 +1,7 @@
 "use client";
 
 import { Suspense } from "react";
-import CompletarPerfilForm from "../CompletarPerfilForm";
+import CompletarPerfilForm from "../CompletarPerfilForm.js";
 
 export default function Page() {
   return (
