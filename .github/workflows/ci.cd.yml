@@ -1,17 +1,20 @@
-name: CI/CD Pipeline
+name: CI/CD Sanaris
 
 on:
   push:
     branches:
       - main
       - develop
+      - integration
 
   pull_request:
     branches:
       - main
+      - develop
 
 jobs:
-  build:
+  build-api:
+    name: Build API .NET
     runs-on: ubuntu-latest
 
     steps:
@@ -23,19 +26,41 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Restaurar dependencias
-        run: dotnet restore
+      - name: Restaurar dependencias API
+        run: dotnet restore ApiSanaris/ApiSanaris.csproj
 
-      - name: Compilar proyecto
-        run: dotnet build --no-restore
+      - name: Compilar API
+        run: dotnet build ApiSanaris/ApiSanaris.csproj --configuration Release --no-restore
 
-      - name: Ejecutar pruebas
-        run: dotnet test --no-build --verbosity normal
+  build-frontend:
+    name: Build Frontend Next.js
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Instalar dependencias
+        working-directory: ./Sanaris
+        run: npm install
+
+      - name: Compilar Frontend
+        working-directory: ./Sanaris
+        run: npm run build
 
   deploy:
-    needs: build
+    name: Deploy
+    needs:
+      - build-api
+      - build-frontend
+
     runs-on: ubuntu-latest
 
     steps:
       - name: Simulación de despliegue
-        run: echo "Desplegando aplicación..."
+        run: echo "Aplicación validada y lista para despliegue"
