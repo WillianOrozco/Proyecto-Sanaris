@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiSanaris")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+097e3125c0015703fe2a1ec9f99a0d08a4b8f938")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c9a26bfb6ee205c55f9b766436c39b2457ac4f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiSanaris")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiSanaris")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
